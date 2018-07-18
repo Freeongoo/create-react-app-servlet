@@ -1,9 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!--
-    Adapted from:
-    https://gist.github.com/phillipgreenii/7c954e3c3911e5c32bd0
-    -->
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.megadix</groupId>
     <artifactId>create-react-app-servlet</artifactId>
@@ -116,8 +113,8 @@
 
                         <configuration>
                             <environmentVariables>
-                                <PUBLIC_URL>http://localhost:8080/${project.artifactId}</PUBLIC_URL>
-                                <REACT_APP_ROUTER_BASE>/${project.artifactId}</REACT_APP_ROUTER_BASE>
+                                <PUBLIC_URL>http://localhost:8080/</PUBLIC_URL>
+                                <REACT_APP_ROUTER_BASE>/</REACT_APP_ROUTER_BASE>
                             </environmentVariables>
                         </configuration>
                     </plugin>
